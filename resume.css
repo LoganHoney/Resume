@@ -1,0 +1,74 @@
+/* CSS reset */
+body, header, main, section, footer, h1, h2 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+	
+}
+
+/* Style rule for body */
+body {
+	padding: 2%;
+	color: white;
+	background-image: linear-gradient(to bottom right, #66666E,#9999A1);
+	font-family: 'Arial', serif;
+	
+}
+
+.nav {
+            list-style-type: none; /* Remove default list styling */
+			padding: 0; /* Remove default padding */
+            margin: 20px;
+			text-decoration:none;
+}
+
+.skills {
+	padding-left: 25px;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+}
+		
+		
+	
+h1 {
+	font-size: 32px
+}
+
+h3 {
+	font-size:20px;
+	color: #000000
+}
+
+p {
+	padding-left: 25px;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+
+/*style rule for headshot*/
+img {
+	border: 2px black;
+	/*background-color: #e6e2d8;*/
+	border-radius: 20px;
+	width: 80px;
+	height:88px;
+}
+
+/* Style rule for list class */
+ul {
+	color: #000000;
+	font-size: 20px;
+	list-style-type: none;
+	font-weight:bold;
+	text-align: left;
+
+}
+
+
+#menu {
+	text-align: left;
+	width: 225px
+}
